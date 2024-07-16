@@ -9,12 +9,25 @@
 }
 
 .yellow {
-  font-size: 30px;
-  background-color: rgb(246, 228, 114);
-  border-radius: 8px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: center;
+  width: 106px;
+  height: 10px;
+  background-color: #FFF6A9;
   font-weight: 700;
 }
 
+span#teamInfoContent.yellow{
+  width: 114px;
+  height: 10px;
+}
+span#teamMembers.yellow{
+  width: 53px;
+  height: 10px;
+}
 .head {
   background-image: linear-gradient(to bottom, black, rgb(60, 60, 60));
   height: 800PX;
@@ -108,6 +121,11 @@
   align-items: center;
 }
 
+.teamInfo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .linkDiv {
   height: 800px;

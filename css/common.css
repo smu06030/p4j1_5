@@ -1,0 +1,129 @@
+@import url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff');
+
+  * {
+    font-family: 'Pretendard-Regular'
+  }
+
+  * {
+    text-align: center;
+  }
+
+  .Yellow {
+    font-size: 20px;
+    background-color: rgb(246, 228, 114);
+    border-radius: 8px;
+  }
+
+  .Head {
+    background-image: linear-gradient(to bottom, black, rgb(60, 60, 60));
+    height: 800PX;
+    width: 100%;
+  }
+
+  .M1 {
+    color: #FF6C7A;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .M2 {
+    color: white;
+
+    display: inline-block;
+    padding: 5px 15px;
+
+    background-color: #FF6C7A;
+    border-radius: 10px;
+
+    font-size: 60px;
+    font-weight: bold;
+
+  }
+
+  .M3 {
+    color: white;
+
+    font-size: 80px;
+    font-weight: bold;
+  }
+
+  .M4 {
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 10px;
+  }
+
+  .Mbox {
+    position: absolute;
+    width: 1000px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+  }
+
+  
+  .Slidediv {
+    height: 600px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+
+    font-weight: bold;
+  }
+
+  .Slidecard {
+    display: block;
+    width: 600px;
+    border: 1px solid gray;
+    border-radius: 30px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    justify-content: start;
+  }
+
+  .Slidetitle {
+    background-color: #FF6C7A;
+    color: white;
+
+    font-size: 30px;
+  }
+
+  .Slidecontent {
+    color: #FF6C7A;
+
+    font-size: 40px;
+  }
+
+  .Teamdiv {
+    height: 800px;
+    background-color: #F6F9FA;
+  }
+
+  .Linkdiv {
+    height: 600px;
+    width: 100%;
+    position: relative;
+    
+    font-weight: bold;
+  }
+
+  .Membercard {
+    width: 1200px;
+    height: 400px;
+    background-color: antiquewhite;
+
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    display: flex;
+    }
+
+  .Linkcard {
+    width: 200px;
+    margin: auto;
+  }

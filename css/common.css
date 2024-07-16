@@ -1,7 +1,7 @@
-@import url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff');
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
 
 * {
-  font-family: 'Pretendard-Regular'
+  font-family: "Pretendard"
 }
 
 * {
@@ -9,7 +9,7 @@
 }
 
 .yellow {
-  font-size: 20px;
+  font-size: 30px;
   background-color: rgb(246, 228, 114);
   border-radius: 8px;
   font-weight: 700;
@@ -23,7 +23,7 @@
 
 .m1 {
   color: #FF6C7A;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 20px;
 }
 
@@ -37,7 +37,6 @@
   border-radius: 10px;
 
   font-size: 60px;
-  font-weight: bold;
 
 }
 
@@ -45,7 +44,7 @@
   color: white;
 
   font-size: 80px;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .m4 {
@@ -66,24 +65,20 @@
 
 
 .slideDiv {
-  height: 600px;
   width: 100%;
-  margin: auto;
-  position: relative;
-
-  font-weight: bold;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
 
 .slideCard {
   display: block;
   width: 600px;
   border: 1px solid gray;
   border-radius: 30px;
-
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 
   justify-content: start;
 }
@@ -105,29 +100,45 @@
 .teamDiv {
   height: 800px;
   background-color: #F6F9FA;
+  display: flex;
+  
+  flex-direction: column;
+  
+  justify-content: center;
+  align-items: center;
 }
 
 
 .linkDiv {
-  height: 600px;
+  height: 800px;
   width: 100%;
   position: relative;
+  flex-direction: column;
+  
+  justify-content: center;
+  align-items: center;
 
-  font-weight: bold;
+  display: flex;
+
+  font-weight: 700;
 }
 
 .memberCards {
   width: 1200px;
-  height: 400px;
-  background-color: antiquewhite;
-
-  position: absolute;
-  top: 25%;
-  left: 20%;
+  height: 500px;
+  
   display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  background-color: antiquewhite;
 }
 
 .linkCard {
   width: 200px;
+  height: 200px;
+
   margin: auto;
+  
+  background-color: aquamarine;
 }

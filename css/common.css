@@ -53,7 +53,7 @@
   margin-bottom: 10px;
 }
 
-.mbox {
+.mBox {
   position: absolute;
   width: 1000px;
   left: 50%;
@@ -63,7 +63,7 @@
 }
 
 
-.slidediv {
+.slideDiv {
   height: 600px;
   width: 100%;
   margin: auto;
@@ -72,7 +72,7 @@
   font-weight: bold;
 }
 
-.slidecard {
+.slideCard {
   display: block;
   width: 600px;
   border: 1px solid gray;
@@ -86,27 +86,27 @@
   justify-content: start;
 }
 
-.slidetitle {
+.slideTitle {
   background-color: #FF6C7A;
   color: white;
 
   font-size: 30px;
 }
 
-.slidecontent {
+.slideContent {
   color: #FF6C7A;
 
   font-size: 40px;
 }
 
 
-.teamdiv {
+.teamDiv {
   height: 800px;
   background-color: #F6F9FA;
 }
 
 
-.linkdiv {
+.linkDiv {
   height: 600px;
   width: 100%;
   position: relative;
@@ -114,7 +114,7 @@
   font-weight: bold;
 }
 
-.membercards {
+.memberCards {
   width: 1200px;
   height: 400px;
   background-color: antiquewhite;
@@ -125,7 +125,7 @@
   display: flex;
 }
 
-.linkcard {
+.linkCard {
   width: 200px;
   margin: auto;
 }

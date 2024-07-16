@@ -1,129 +1,131 @@
 @import url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff');
 
-  * {
-    font-family: 'Pretendard-Regular'
-  }
+* {
+  font-family: 'Pretendard-Regular'
+}
 
-  * {
-    text-align: center;
-  }
+* {
+  text-align: center;
+}
 
-  .Yellow {
-    font-size: 20px;
-    background-color: rgb(246, 228, 114);
-    border-radius: 8px;
-  }
+.yellow {
+  font-size: 20px;
+  background-color: rgb(246, 228, 114);
+  border-radius: 8px;
+}
 
-  .Head {
-    background-image: linear-gradient(to bottom, black, rgb(60, 60, 60));
-    height: 800PX;
-    width: 100%;
-  }
+.head {
+  background-image: linear-gradient(to bottom, black, rgb(60, 60, 60));
+  height: 800PX;
+  width: 100%;
+}
 
-  .M1 {
-    color: #FF6C7A;
-    font-weight: bold;
-    font-size: 20px;
-  }
+.m1 {
+  color: #FF6C7A;
+  font-weight: bold;
+  font-size: 20px;
+}
 
-  .M2 {
-    color: white;
+.m2 {
+  color: white;
 
-    display: inline-block;
-    padding: 5px 15px;
+  display: inline-block;
+  padding: 5px 15px;
 
-    background-color: #FF6C7A;
-    border-radius: 10px;
+  background-color: #FF6C7A;
+  border-radius: 10px;
 
-    font-size: 60px;
-    font-weight: bold;
+  font-size: 60px;
+  font-weight: bold;
 
-  }
+}
 
-  .M3 {
-    color: white;
+.m3 {
+  color: white;
 
-    font-size: 80px;
-    font-weight: bold;
-  }
+  font-size: 80px;
+  font-weight: bold;
+}
 
-  .M4 {
-    color: white;
-    margin-top: 100px;
-    margin-bottom: 10px;
-  }
+.m4 {
+  color: white;
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
 
-  .Mbox {
-    position: absolute;
-    width: 1000px;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+.mbox {
+  position: absolute;
+  width: 1000px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 
-  }
+}
 
-  
-  .Slidediv {
-    height: 600px;
-    width: 100%;
-    margin: auto;
-    position: relative;
 
-    font-weight: bold;
-  }
+.slidediv {
+  height: 600px;
+  width: 100%;
+  margin: auto;
+  position: relative;
 
-  .Slidecard {
-    display: block;
-    width: 600px;
-    border: 1px solid gray;
-    border-radius: 30px;
+  font-weight: bold;
+}
 
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.slidecard {
+  display: block;
+  width: 600px;
+  border: 1px solid gray;
+  border-radius: 30px;
 
-    justify-content: start;
-  }
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
-  .Slidetitle {
-    background-color: #FF6C7A;
-    color: white;
+  justify-content: start;
+}
 
-    font-size: 30px;
-  }
+.slidetitle {
+  background-color: #FF6C7A;
+  color: white;
 
-  .Slidecontent {
-    color: #FF6C7A;
+  font-size: 30px;
+}
 
-    font-size: 40px;
-  }
+.slidecontent {
+  color: #FF6C7A;
 
-  .Teamdiv {
-    height: 800px;
-    background-color: #F6F9FA;
-  }
+  font-size: 40px;
+}
 
-  .Linkdiv {
-    height: 600px;
-    width: 100%;
-    position: relative;
-    
-    font-weight: bold;
-  }
 
-  .Membercard {
-    width: 1200px;
-    height: 400px;
-    background-color: antiquewhite;
+.teamdiv {
+  height: 800px;
+  background-color: #F6F9FA;
+}
 
-    position: absolute;
-    top: 25%;
-    left: 20%;
-    display: flex;
-    }
 
-  .Linkcard {
-    width: 200px;
-    margin: auto;
-  }
+.linkdiv {
+  height: 600px;
+  width: 100%;
+  position: relative;
+
+  font-weight: bold;
+}
+
+.membercards {
+  width: 1200px;
+  height: 400px;
+  background-color: antiquewhite;
+
+  position: absolute;
+  top: 25%;
+  left: 20%;
+  display: flex;
+}
+
+.linkcard {
+  width: 200px;
+  margin: auto;
+}

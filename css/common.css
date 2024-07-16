@@ -14,20 +14,15 @@
   justify-content: center;
   align-items: center;
   line-height: center;
-  width: 106px;
   height: 10px;
   background-color: #FFF6A9;
   font-weight: 700;
 }
 
-span#teamInfoContent.yellow{
-  width: 114px;
-  height: 10px;
+.yDiv {
+  margin: 40px auto;
 }
-span#teamMembers.yellow{
-  width: 53px;
-  height: 10px;
-}
+
 .head {
   background-image: linear-gradient(to bottom, black, rgb(60, 60, 60));
   height: 800PX;
@@ -38,6 +33,8 @@ span#teamMembers.yellow{
   color: #FF6C7A;
   font-weight: 700;
   font-size: 20px;
+
+  margin: 10px auto;
 }
 
 .m2 {
@@ -51,6 +48,8 @@ span#teamMembers.yellow{
 
   font-size: 60px;
 
+  margin: 20px auto;
+
 }
 
 .m3 {
@@ -63,7 +62,7 @@ span#teamMembers.yellow{
 .m4 {
   color: white;
   font-weight: bold;
-  margin-top: 100px;
+  margin-top: 200px;
   margin-bottom: 10px;
 }
 
@@ -111,9 +110,12 @@ span#teamMembers.yellow{
 
 
 .teamDiv {
+  width: 100%;
   height: 800px;
   background-color: #F6F9FA;
+
   display: flex;
+  font-weight: 700;
   
   flex-direction: column;
   
@@ -121,16 +123,17 @@ span#teamMembers.yellow{
   align-items: center;
 }
 
-.teamInfo{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.teamInfo {
+  margin: 30px auto;
+}
+
+.teamInfoDown {
+  margin-top: 150px;
 }
 
 .linkDiv {
   height: 800px;
   width: 100%;
-  position: relative;
   flex-direction: column;
   
   justify-content: center;

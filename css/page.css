@@ -101,6 +101,14 @@ a{
     background-color: #ff4255;
 }
 
+.btn1 {
+    border-top-left-radius: 5px;
+}
+
+.btn4 {
+    border-top-right-radius: 5px;
+}
+
 
 
 .contents {

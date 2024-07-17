@@ -8,8 +8,13 @@
   text-align: center;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .yellow {
-  font-size: 20px;
+  font-size: 24px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,17 +29,31 @@
 }
 
 .head {
+  display: flex;
   background-image: linear-gradient(to bottom, black, rgb(60, 60, 60));
   height: 800PX;
   width: 100%;
+  
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+}
+
+.mainLink {
+  position: relative;
+  right: 46%;
+  width: 56px;
+  height: 29px;
 }
 
 .m1 {
   color: #FF6C7A;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 21px;
 
-  margin: 10px auto;
+  margin: 8px auto;
 }
 
 .m2 {
@@ -45,33 +64,41 @@
 
   background-color: #FF6C7A;
   border-radius: 10px;
+  border-width: 302px;
+  
 
-  font-size: 60px;
+  font-size: 35px;
 
-  margin: 20px auto;
+  margin: 8px auto;
 
 }
 
 .m3 {
   color: white;
 
-  font-size: 80px;
+  margin: 8px auto;
+
+  font-size: 60px;
   font-weight: 700;
 }
 
 .m4 {
   color: white;
-  font-weight: bold;
-  margin-top: 200px;
-  margin-bottom: 10px;
+  font-weight: 700;
+
+  font-size: 17px;
+  margin-top: 250px;
+  margin-bottom: 20px;
 }
 
 .mBox {
-  position: absolute;
-  width: 1000px;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 250px;
 
 }
 
@@ -115,26 +142,27 @@
   background-color: #F6F9FA;
   display: flex;
   font-weight: 700;
-  
+
   flex-direction: column;
-  
+
   justify-content: center;
   align-items: center;
 }
 
+
 .teamInfo {
-  margin: 30px auto;
+  margin-top: 35px;
 }
 
 .teamInfoDown {
-  margin-top: 150px;
+  margin-top: 130px;
 }
 
 .linkDiv {
   height: 800px;
   width: 100%;
   flex-direction: column;
-  
+
   justify-content: center;
   align-items: center;
 
@@ -146,11 +174,11 @@
 .memberCards {
   width: 1200px;
   height: 500px;
-  
+
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
   background-color: antiquewhite;
 }
 
@@ -159,6 +187,6 @@
   height: 200px;
 
   margin: auto;
-  
+
   background-color: aquamarine;
 }

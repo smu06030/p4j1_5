@@ -6,7 +6,7 @@ const height =
 window.addEventListener("scroll", () => {
   const scrollTop = document.documentElement.scrollTop;
   const scrolled = (scrollTop / height) * 100;
-
+  console.log(scrolled)
   progressBar.style.width = `${scrolled}%`;
 });
 

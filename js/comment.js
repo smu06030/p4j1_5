@@ -22,18 +22,17 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
-$("#mentSend").click(async function () {
+$("#sendBtn").click(async function () {
   let nickname = $("#nickname").val();
   let comment = $("#mentDet").val();
-  
+
   let doc = {
-    
     nickname: nickname,
     comment: comment,
   };
   console.log(doc);
   await addDoc(collection(db, "cheering"), doc);
-  alert('감사합니다!')
+  alert("감사합니다!");
 });
 
 let docs = await getDocs(collection(db, "cheering"));

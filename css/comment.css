@@ -2,10 +2,17 @@
 padding-bottom: 50px;
 }
 
-#mentSend {
+#sendBtn {
+    color: white;
     background-color: #FF6C7A;
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 20 100;
 }
 .cheeringCards{
     display: flex;
-    justify-content: center
+    justify-content: center;
+    padding-bottom: 50px;
+    
+    background-color: green;
 }

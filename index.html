@@ -5,10 +5,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>여기서부터는 P4J1팀의 페이지입니다</title>
-  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="css/common.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
   <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js" defer></script>
   <script src="./js/common.js" defer></script>
+  <!-- 댓글창 css,js -->
+  <link rel="commentStyleSheet" href="css/comment.css">
+  <script type="module" rel="commentJs" src="js/comment.js"></script>
 </head>
 
 <body>
@@ -106,6 +109,25 @@
             <div style="font-size: 17px; margin-top: 16px;">이원빈</div>
           </div>
         </div>
+      </div>
+    </div>
+
+    <div class="comment">
+      <div class="comCenter">
+        <h2>P4J1팀에게 응원 보내기</h2>
+        <div class="comCenter">
+          <div>응원 한마디가 코린이들에겐 큰 힘이 됩니다</div>
+          <div>
+            <textarea id="comDet" type="text" class="comSubmitInput" placeholder="응원 메세지를 입력해주세요" required></textarea>
+          </div>
+          <div id="comMsgform" class="comRow">
+            <input id="nickname" type="text" class="comSubmitInput" style="width: 4rem; margin-right: 0.5rem;"
+              placeholder="닉네임" required>
+            <button id="commentBtn">응원 보내기</button>
+          </div>
+        </div>
+      </div>
+      <div id="cheeringList" class="card mb-3" style="max-width: 540px;">
       </div>
     </div>
   </div>

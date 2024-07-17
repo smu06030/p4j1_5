@@ -5,11 +5,13 @@
 }
 
 body{
-	margin: 0
+	margin: 0;
+    background-image: url(../images/배경.jpg);
+
 } 
 
 .header{
-    background-image: linear-gradient(to bottom, black, rgb(60, 60, 60));;
+    
     height: 50px;
     display: flex;
     align-items: center;
@@ -27,6 +29,10 @@ a{
     text-decoration: none; 
 }
 
+.introBox{
+    padding: 100px 0;
+}
+
 .box {
     display: flex;
     justify-content: center;
@@ -37,33 +43,32 @@ a{
     justify-content: center;
     margin: auto;
     width: 1000px;
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding: 50px 0;
+    border-radius: 3%;
 }
 
 .promise{
- width: 700px;
  font-size: 40px;
  display: flex;
  align-items: center;
- padding-left: 50px;
+ margin-left: 100px;
 }
 
 .memberName{
     text-align: center;
+    padding: 15px 0;
 }
 
 .highLight{
     display: inline;
-    box-shadow: inset 0 -10px 0 #FF6C7A; 
+    box-shadow: inset 0 -10px 0 aquamarine; 
   font-weight: 700;
 }
 
 
 .memberInfo {
 
-    
-    width: 1000px;
+    margin: auto;
     padding: 10px;
 }
 
@@ -73,20 +78,21 @@ a{
 }
 
 .btnGroup>button {
-    width: 120px;
-    height: 30px;
+    width: 150px;
+    height: 35px;
     margin: 0 40px;
+    font-size: 15px;
   
 }
 
 .contents {
     border: 1px solid black;
-    padding: 5px;
+    padding: 10px;
 }
 
 
 .memberTitle {
-    padding: 10px;
+    padding: 10px ;
     
 }
 

@@ -18,3 +18,9 @@ $('#dpCowork').click(async function (){
     $("#power").hide();
     $("#cowork").show();
 })
+
+$('#dpAll').click(async function (){
+    $("#mbti").show();
+    $("#power").show();
+    $("#cowork").show();
+})

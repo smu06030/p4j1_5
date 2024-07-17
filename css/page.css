@@ -1,67 +1,98 @@
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
 
-    * {
-        font-family: "Pretendard"
-    }
-
-    .box {
-        display: flex;
-        justify-content: center;
-        
-    }
-
-    .memberIntro{
-        display: flex;
-        justify-content: center;
-        margin: 20px 0 ;
-    }
-
-    .memberName {
-        width: 1024px;
+* {
+    font-family: "Pretendard"
+}
 
 
-    }
+.mainLink {
+    text-align: center;
+    width: 56px;
+    height: 29px;
+    position: relative;
+}
+
+a{
+    text-decoration: none; 
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+
+}
+
+.memberIntro {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.memberName {
+    width: 1024px;
+    
+
+}
+
+.memberName > div{
+    margin-bottom: 20px;
+}
+
+.highLight{
+    display: inline;
+    box-shadow: inset 0 -10px 0 #FF6C7A; 
+  font-weight: 700;
+}
 
 
-    .memberInfo {
+.memberInfo {
 
-        border: 1px solid black;
-        width: 700px;
-        padding: 10px;
-    }
+    
+    width: 700px;
+    padding: 10px;
+}
 
-    .btnGroup{
-        margin-bottom: 20px;
-    }
+.btnGroup {
+    margin-bottom: 20px;
+    text-align: center;
+}
 
-    .contents{
-        border: 1px solid black;
-    }
+.btnGroup>button {
+    width: 120px;
+    height: 30px;
+    margin: 0 20px;
+  
+}
 
-
-    .aSide {
-        padding: 0 50px;
-    }
-
-
-    .memberImg {
-        height: 240px;
-        width: 240px;
-        border: 1px solid black;
-
-    }
-
-    .memberSite {
-        margin-top: 10px;
-        display: flex;
-        justify-content: center;
-
-    }
+.contents {
+    border: 1px solid black;
+    padding: 5px;
+}
 
 
-    .memberSite>div {
-        width: 30px;
-        height: 30px;
-        border-radius: 50%;
-        margin: 15px;
-    }
+.aSide {
+    padding: 0 50px;
+}
+
+
+.memberImg {
+    height: 240px;
+    width: 240px;
+    border: 1px solid black;
+
+}
+
+.memberSite {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.memberSite>div {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 15px;
+}

@@ -10,6 +10,10 @@ body {
   padding: 0;
 }
 
+a {
+  text-decoration-line: none;
+}
+
 /* 상단 스크롤 바 */
 .scrollIndicator {
   height: 10px;
@@ -165,30 +169,6 @@ body {
   align-items: center;
 }
 
-
-.slideCard {
-  display: block;
-  width: 659px;
-  height: 281px;
-  border: 1px solid gray;
-  border-radius: 30px;
-
-  justify-content: start;
-}
-
-.slideTitle {
-  background-color: #FF6C7A;
-  color: white;
-
-  font-size: 30px;
-}
-
-.slideContent {
-  color: #FF6C7A;
-
-  font-size: 40px;
-}
-
 .teamDiv {
   width: 100%;
   height: 800px;
@@ -231,8 +211,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  background-color: antiquewhite;
 }
 
 .linkCard {
@@ -240,8 +218,6 @@ body {
   height: 193px;
 
   margin: auto;
-
-  background-color: aquamarine;
 }
 
 .linkCardImage {

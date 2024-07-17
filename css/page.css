@@ -80,10 +80,10 @@ a{
 }
 
 .btnGroup>button {
-    width: 150px;
+    width: 20%;
     height: 35px;
-    margin: 0 40px;
     font-size: 15px;
+    
   
 }
 

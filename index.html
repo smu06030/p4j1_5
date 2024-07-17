@@ -9,10 +9,12 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
   <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js" defer></script>
   <script src="./js/common.js" defer></script>
-
+  
   <!-- 댓글창 css,js -->
-  <link rel="commentStyleSheet" href="./css/comment.css">
-  <script type="module" src="js/comment.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./css/comment.css">
+  <script type="module" src="./js/comment.js" defer></script>
 </head>
 
 <body>
@@ -116,16 +118,16 @@
 
     <div class="comment">
       <h2>P4J1팀에게 응원 보내기</h2>
-      <div class="mentCenter">
-        <div>응원 한마디가 코린이들에겐 큰 힘이 됩니다</div>
+      <div>응원 한마디가 코린이들에겐 큰 힘이 됩니다</div>
+          <textarea id="mentDet" type="text" placeholder="응원 메세지를 입력해주세요" required></textarea>
         <div>
-          <textarea id="mentDet" type="text" class="mentInput" placeholder="응원 메세지를 입력해주세요" required></textarea>
-        </div>
-        <div id="msgForm" class="mentRow">
-          <input id="nickname" type="text" class="mentInput" style="width: 4rem; margin-right: 0.5rem;"
+          <input id="nickname" type="text"
             placeholder="닉네임" required>
-          <button id="mentSend" class="mentSend">응원 보내기</button>
+          <button id="mentSend">응원 보내기</button>
         </div>
+      </div>
+
+      <div id="cheeringList" class="card mb-3" style="max-width: 540px;">
       </div>
     </div>
 </body>

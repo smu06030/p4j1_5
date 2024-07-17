@@ -1,7 +1,11 @@
+.comment{
+padding-bottom: 50px;
+}
+
 #mentSend {
     background-color: #FF6C7A;
 }
-
-.comment{
-    background-color: green;
+.cheeringCards{
+    display: flex;
+    justify-content: center
 }

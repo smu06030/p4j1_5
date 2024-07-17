@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>이모지 반응</title>
+        <style>
+            .emojiBox {
+                display: flex;
+                justify-content: center;
+                margin-top: 20px;
+            }
+            /* 이모지 버튼 스타일 */
+            .emojiBtn {
+                margin: 0 10px;
+                padding: 10px;
+                cursor: pointer;
+                border: none;
+                background-color: transparent;
+            }
+            /* 팝오버 스타일 */
+            .popover {
+                position: absolute;
+                background-color: rgba(20, 20, 20, 0.8);
+                color: white;
+                padding: 10px;
+                border-radius: 5px;
+                display: none;
+                box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            }
+
+            .emojiList {
+                display: flex;
+                justify-content: center;
+                margin-top: 10px;
+            }
+
+            .emoji {
+                font-size: 24px;
+                margin: 0 5px;
+                cursor: pointer;
+            }
+
+            /* 이모지 목록을 보여주는 버튼 */
+            .toggle-btn {
+                font-size: 16px;
+                padding: 5px 10px;
+                margin-top: 10px;
+                cursor: pointer;
+                background-color: #007bff;
+                color: white;
+                border: none;
+                border-radius: 5px;
+            }
+
+            /* 이모지 버튼에 마우스 호버 시 배경 색 변경 */
+            .emoji:hover {
+                background-color: #909090;
+                border-radius: 4px;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- 팝오버 토글 버튼 -->
+        <button class="toggle-btn">이모지 반응하기</button> 
+
+        <!-- 팝오버가 생성될 컨테이너 -->
+        <div class="popover-emojiBox" id="popoveremojiBox">
+            <div class="popover">
+                <div class="emojiList">
+                    <span class="emoji" data-emoji="😀">😀</span>
+                    <span class="emoji" data-emoji="😍">😍</span>
+                    <span class="emoji" data-emoji="👍">👍</span>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const emojiButtons = document.querySelectorAll('.emojiBtn'); // 모든 이모지 버튼들을 선택
+                const toggleButton = document.querySelector('.toggle-btn'); // 팝오버 토글 버튼
+                const popoveremojiBox = document.getElementById('popoveremojiBox'); // 팝오버를 담을 컨테이너
+                const popover = document.querySelector('.popover'); // 팝오버 엘리먼트
+
+                // 각 이모지 버튼에 클릭 이벤트 추가
+                emojiButtons.forEach(button => {
+                    button.addEventListener('click', function(event) {
+                        const selectedEmoji = button.getAttribute('data-emoji'); // 선택된 이모지 가져오기
+                        popover.style.display = 'none'; // 팝오버 숨기기
+                        button.textContent = selectedEmoji; // 버튼 텍스트 변경
+                    });
+                });
+
+                // 팝오버 토글 버튼 클릭 시 이벤트 처리
+                toggleButton.addEventListener('click', function() {
+                    if (popover.style.display === 'block') {
+                        popover.style.display = 'none'; // 팝오버 닫기
+                    } else {
+                        const rect = toggleButton.getBoundingClientRect();
+                        popover.style.top = rect.bottom + 'px'; // 버튼 아래에 위치
+                        popover.style.left = rect.left + 'px'; // 버튼 왼쪽 정렬
+                        popover.style.display = 'block'; // 팝오버 열기
+                    }
+                });
+
+                // 이모지 아이템들에 클릭 이벤트 추가
+                const emojiItems = document.querySelectorAll('.emoji');
+                emojiItems.forEach(item => {
+                    item.addEventListener('click', function(event) {
+                        const selectedEmoji = item.getAttribute('data-emoji'); // 선택된 이모지 가져오기
+                        const popoverParentButton = popoveremojiBox.previousElementSibling; // 팝오버를 호출한 버튼 가져오기
+                        popoverParentButton.textContent = selectedEmoji; // 버튼 텍스트 변경
+                        popover.style.display = 'none'; // 팝오버 숨기기
+                    });
+                });
+            });
+        </script>
+    </body>
+</html>

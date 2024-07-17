@@ -4,7 +4,9 @@
     font-family: "Pretendard"
 }
 
-
+.header{
+    margin-bottom: 50px;
+}
 .mainLink {
     text-align: center;
     width: 56px;
@@ -25,17 +27,20 @@ a{
 .memberIntro {
     display: flex;
     justify-content: center;
-    margin: 20px 0;
+    margin: auto;
+    width: 1000px;
 }
 
-.memberName {
-    width: 1024px;
-    
-
+.promise{
+ width: 700px;
+ font-size: 40px;
+ display: flex;
+ align-items: center;
+ padding-left: 50px;
 }
 
-.memberName > div{
-    margin-bottom: 20px;
+.memberName{
+    text-align: center;
 }
 
 .highLight{
@@ -48,7 +53,7 @@ a{
 .memberInfo {
 
     
-    width: 700px;
+    width: 1000px;
     padding: 10px;
 }
 
@@ -60,7 +65,7 @@ a{
 .btnGroup>button {
     width: 120px;
     height: 30px;
-    margin: 0 20px;
+    margin: 0 40px;
   
 }
 
@@ -70,8 +75,9 @@ a{
 }
 
 
-.aSide {
-    padding: 0 50px;
+.memberTitle {
+    padding: 10px;
+    
 }
 
 

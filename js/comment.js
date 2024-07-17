@@ -22,9 +22,9 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
-$("#commentBtn").click(async function () {
+$("#mentSend").click(async function () {
   let nickname = $("#nickname").val();
-  let comment = $("#message").val();
+  let comment = $("#mentDet").val();
 
   let doc = {
     nickname: nickname,

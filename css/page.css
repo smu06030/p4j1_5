@@ -45,6 +45,7 @@ a{
     width: 1000px;
     padding: 50px 0;
     border-radius: 3%;
+    background-color: rgb(255, 255, 255, 0.8);
 }
 
 .promise{
@@ -67,9 +68,10 @@ a{
 
 
 .memberInfo {
-
+    width: 1000px;
     margin: auto;
     padding: 10px;
+    background-color: rgb(255, 255, 255,0.8);
 }
 
 .btnGroup {

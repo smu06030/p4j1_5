@@ -71,25 +71,43 @@ a{
     width: 1000px;
     margin: auto;
     padding: 10px;
-    background-color: rgb(255, 255, 255,0.8);
+    background-color: rgb(255, 255, 255,0.5);
+    border-radius: 5px;
 }
 
-.btnGroup {
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.btnGroup>button {
-    width: 20%;
+.btnGroup button {
+    background-color: #FF6C7A;
+    border: 1px solid rgb(255, 59, 59);
+    color: white;
+    padding: 10px 24px;
+    cursor: pointer;
+    float:inline-start;
+    width: 250px;
     height: 35px;
     font-size: 15px;
-    
-  
 }
+
+.btnGroup:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.btnGroup button:not(:last-child) {
+    border-right: none;
+}
+
+.btnGroup button:hover {
+    background-color: #ff4255;
+}
+
+
 
 .contents {
     border: 1px solid black;
+    border-top: none;
     padding: 10px;
+    background-color: white;
 }
 
 

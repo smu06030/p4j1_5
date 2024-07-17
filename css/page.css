@@ -1,0 +1,67 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+
+    * {
+        font-family: "Pretendard"
+    }
+
+    .box {
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .memberIntro{
+        display: flex;
+        justify-content: center;
+        margin: 20px 0 ;
+    }
+
+    .memberName {
+        width: 1024px;
+
+
+    }
+
+
+    .memberInfo {
+
+        border: 1px solid black;
+        width: 700px;
+        padding: 10px;
+    }
+
+    .btnGroup{
+        margin-bottom: 20px;
+    }
+
+    .contents{
+        border: 1px solid black;
+    }
+
+
+    .aSide {
+        padding: 0 50px;
+    }
+
+
+    .memberImg {
+        height: 200px;
+        width: 200px;
+        border: 1px solid black;
+
+    }
+
+    .memberSite {
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+
+    }
+
+
+    .memberSite>div {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin: 15px;
+    }

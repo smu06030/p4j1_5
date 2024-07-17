@@ -4,14 +4,23 @@
     font-family: "Pretendard"
 }
 
+body{
+	margin: 0
+} 
+
 .header{
-    margin-bottom: 50px;
+    background-image: linear-gradient(to bottom, black, rgb(60, 60, 60));;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    
 }
 .mainLink {
     text-align: center;
     width: 56px;
     height: 29px;
     position: relative;
+    margin-left: 10px;
 }
 
 a{
@@ -21,7 +30,6 @@ a{
 .box {
     display: flex;
     justify-content: center;
-
 }
 
 .memberIntro {
@@ -29,6 +37,8 @@ a{
     justify-content: center;
     margin: auto;
     width: 1000px;
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
 
 .promise{
@@ -96,9 +106,10 @@ a{
 }
 
 
-.memberSite>div {
+.memberSite > div {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     margin: 15px;
+    background-color: transparent;
 }

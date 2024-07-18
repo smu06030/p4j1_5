@@ -43,6 +43,7 @@ docs.forEach((doc) => {
   let comment = row["comment"];
   
   let attachComment = `
+  <div id="cheeringList" class="card mb-3">
   <div class='cheeringCards' class="row g-0">
   <div class="col-md-4">
   <h5 class="card-title">${nickname}</h5>
@@ -52,7 +53,8 @@ docs.forEach((doc) => {
   <p class="card-text">${comment}</p>
   </div>
   </div>
+  </div>
   </div>`;
   
-  $("#cheeringList").append(attachComment);
+  $("#mentFrame").append(attachComment);
 });

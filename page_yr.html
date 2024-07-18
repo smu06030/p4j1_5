@@ -9,6 +9,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./js/page.js" defer></script>
 
+    <link rel="stylesheet" href="./css/emoji.css" />
+    <script src="./js/emoji.js" defer></script>
+
 </head>
 
 <body>
@@ -20,6 +23,19 @@
     <div class="introBox">
         <div class="memberIntro">
             <div class="memberTitle">
+                <!-- 팝오버 토글 버튼 -->
+    <button class="toggleBtn">이모지 반응하기</button> 
+
+    <!-- 팝오버가 생성될 박스 -->
+    <div class="popoveremojiBox" id="popoveremojiBox">
+        <div class="popover">
+            <div class="emojiList">
+                <span class="emoji" data-emoji="😀">😀</span>
+                <span class="emoji" data-emoji="😍">😍</span>
+                <span class="emoji" data-emoji="👍">👍</span>
+            </div>
+        </div>
+    </div>
                 <div class="memberEtc">
                     <div class="memberImg">
                         <img src="./images/이예람_스티커.png" style="max-width: 100%; height: auto;">
@@ -87,7 +103,8 @@
                         <li>협업스타일</li>
                     </div>
                     <div style="margin: 10px 0 0 20px;">
-                        테스트 메세지 <!--자신에 대한 소개와 설명 입력-->
+                        평소 협업을 하는 업무를 잘 해보지 않아 스스로의 협업스타일이 어떤지 정확히 알지 못합니다. 
+                        다만 정확한 지시가 있을 경우 해당 지시를 잘 수행해내는 편이라고 생각합니다. <!--자신에 대한 소개와 설명 입력-->
                     </div>
 
                 </div>

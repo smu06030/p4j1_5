@@ -190,12 +190,13 @@ body {
 
 .pis {
   color: #FF6C7A;
-
-  cursor: url(./images/airplanecusor.png) 30 30 auto;
 }
 
 .pis:hover {
   color: rgb(0, 221, 221);
+  
+
+  cursor: none;
 }
 
 .linkDiv {
@@ -232,7 +233,7 @@ body {
 .linkCardImage:hover {
   background-color: #fee4ed;
 
-  cursor: url(./images/airplanecusor.png) 30 30 auto;
+  cursor: zoom-in;
 }
 
 .footer {

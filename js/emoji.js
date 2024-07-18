@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
             popover.style.display = 'none'; // 팝오버 닫기
         } else {
             const rect = toggleButton.getBoundingClientRect();
-            popover.style.topgit = rect.bottom + 'px'; // 버튼 아래에 위치
+            popover.style.top = rect.top + 'px'; // 버튼 아래에 위치
             popover.style.left = rect.left + 'px'; // 버튼 왼쪽 정렬
             popover.style.display = 'block'; // 팝오버 열기
         }

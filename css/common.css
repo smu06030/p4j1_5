@@ -10,10 +10,6 @@ body {
   padding: 0;
 }
 
-a {
-  text-decoration-line: none;
-}
-
 /* 상단 스크롤 바 */
 .scrollIndicator {
   height: 10px;

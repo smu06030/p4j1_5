@@ -189,16 +189,14 @@ body {
 }
 
 .linkDiv {
-  height: 800px;
+  height: 600px;
   width: 100%;
   flex-direction: column;
-
   justify-content: center;
   align-items: center;
-
   display: flex;
-
   font-weight: 700;
+  margin-bottom: 100px;
 }
 
 .memberCards {
@@ -219,4 +217,23 @@ body {
 .linkCardImage > a > img {
   width: 160px;
   height: 160px;
+}
+
+.footer {
+  background: linear-gradient(to bottom, black, rgb(60, 60, 60));
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+.footer p {
+  margin-bottom: 0;
+}
+.footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+.footer li {
+  margin: 5px 0;
 }

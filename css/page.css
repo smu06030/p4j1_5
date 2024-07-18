@@ -4,6 +4,10 @@
     font-family: "Pretendard"
 }
 
+* {
+    border-top-left-radius: 0%;
+}
+
 
 .mainLink {
     text-align: center;

@@ -9,9 +9,9 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
   <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js" defer></script>
   <script src="./js/common.js" defer></script>
-  
+
   <!-- 댓글창 css,js -->
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
     crossorigin="anonymous"></script>
@@ -27,8 +27,8 @@
 
   <div class="page">
     <div class="head">
-      <div class="mainLink"><a href="index.html"><span
-            style="color: white; font-size: 24px; font-weight: 700; text-decoration: none;">P4J1</span></a></div>
+      <div class="mainLink"><a href="index.html" style="text-decoration-line: none;"><span
+            style="color: white; font-size: 24px; font-weight: 700;">P4J1</span></a></div>
       <div class="mBox">
         <div class="m1">내일배움캠프 5조</div>
         <div class="m2"><span style="font-weight: 700;">초보들로</span> 똘똘 뭉친</div>
@@ -68,8 +68,8 @@
     </div>
 
     <div class="teamDiv">
-      <div class="yDiv" style="margin-bottom: 150px;"><span class="yellow" style="text-shadow: 0 2px 10px gray;"
-          id="teamInfoContent">&nbsp;&nbsp;팀 소개 내용&nbsp;&nbsp;</span></div>
+      <div class="yDiv" style="margin-bottom: 150px;"><span class="yellow" id="teamInfoContent">&nbsp;&nbsp;팀 소개
+          내용&nbsp;&nbsp;</span></div>
       <div class="teamInfo" style="font-size: 38px; font-weight: 500;"> 비전공자 <span
           style="color: #FF6C7A; font-weight: 700;">4명!</span><br>전공자 <span
           style="color: #FF6C7A; font-weight: 700;">1명!</span></div>
@@ -86,31 +86,31 @@
         <div class="memberCards">
           <div class="linkCard">
             <div class="linkCardImage">
-              <a href=""><img src="./images/이석원_스티커.png" alt="이석원 캐릭터"></img></a>
+              <a href="./page_sw.html"><img src="./images/이석원_스티커.png" alt="이석원 캐릭터"></img></a>
             </div>
             <div style="font-size: 17px; margin-top: 16px;">이석원</div>
           </div>
           <div class="linkCard">
             <div class="linkCardImage">
-              <a href=""><img src="./images/유인철_스티커.png" alt="유인철 캐릭터"></img></a>
+              <a href="./page_ic.html"><img src="./images/유인철_스티커.png" alt="유인철 캐릭터"></img></a>
             </div>
             <div style="font-size: 17px; margin-top: 16px;">유인철</div>
           </div>
           <div class="linkCard">
             <div class="linkCardImage">
-              <a href=""><img src="./images/김경혜_스티커.png" alt="김경혜 캐릭터"></img></a>
+              <a href="./page_gh.html"><img src="./images/김경혜_스티커.png" alt="김경혜 캐릭터"></img></a>
             </div>
             <div style="font-size: 17px; margin-top: 16px;">김경혜</div>
           </div>
           <div class="linkCard">
             <div class="linkCardImage">
-              <a href=""><img src="./images/이예람_스티커.png" alt="이예람 캐릭터"></img></a>
+              <a href="./page_yr.html"><img src="./images/이예람_스티커.png" alt="이예람 캐릭터"></img></a>
             </div>
             <div style="font-size: 17px; margin-top: 16px;">이예람</div>
           </div>
           <div class="linkCard">
             <div class="linkCardImage">
-              <a href=""><img src="./images/이원빈_스티커.png" alt="이원빈 캐릭터"></img></a>
+              <a href="./page_wb.html"><img src="./images/이원빈_스티커.png" alt="이원빈 캐릭터"></img></a>
             </div>
             <div style="font-size: 17px; margin-top: 16px;">이원빈</div>
           </div>
@@ -119,31 +119,53 @@
     </div>
 
     <div class="comment">
-      <h2>P4J1팀에게 응원 보내기</h2>
-      <div>응원 한마디가 코린이들에겐 큰 힘이 됩니다</div>
-          <textarea id="mentDet" type="text" placeholder="응원 메세지를 입력해주세요" required></textarea>
+      <div  class="yDiv"><span id="cSpan" class="yellow" id="teamMembers">&nbsp;&nbsp;응원 보내기&nbsp;&nbsp;</span></div>
+
+
+      <div id="com1">응원 한마디가 코린이들에겐 큰 힘이 됩니다</div>
+
+      <div class="inputDiv">
         <div>
-          <input id="nickname" type="text"
-            placeholder="닉네임" required>
-          <button id="sendBtn">응원 보내기</button>
+          <textarea id="mentDet" class="mentDet" type="text" placeholder="응원 메세지를 입력해주세요" required></textarea>
         </div>
       </div>
-
-      <div id="cheeringList" class="card mb-3" style="max-width: 540px;">
-        
-        <div class='cheeringCards' class="row g-0">
-          <div class="col-md-4">
-            <h5 class="card-title">${nickname}</h5>
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <p class="card-text">${comment}</p>
-            </div>
-          </div>
-        </div>
-
+      <div id="com2">
+        <input id="nickname" type="text" placeholder="닉네임" required>
+        <button id="sendBtn">응원 보내기</button>
       </div>
     </div>
+
+
+    <div id="mentFrame">
+
+    </div>
+    <footer class="footer">
+      <div class="teamName">
+        <p>내일배움캠프 5조</p>
+        <p>P4J1팀</p>
+      </div>
+      <div class="members">
+          <p>팀원</p>
+          <ul>
+              <li>유인철</li>
+              <li>김경혜</li>
+              <li>이예람</li>
+              <li>이원빈</li>
+              <li>이석원</li>
+          </ul>
+      </div>
+      <div class="blogs">
+          <p>블로그 주소</p>
+          <ul>
+              <li><a href="https://mingos-habitat.tistory.com/" target="_blank">https://mingos-habitat.tistory.com/</a></li>
+              <li><a href="https://fjpzmfks.tistory.com/" target="_blank">https://fjpzmfks.tistory.com/</a></li>
+              <li><a href="https://svt012.tistory.com/" target="_blank">https://svt012.tistory.com/</a></li>
+              <li><a href="https://velog.io/@lducumg/posts" target="_blank">https://velog.io/@lducumg/posts</a></li>
+              <li><a href="https://record165.tistory.com/" target="_blank">https://record165.tistory.com/</a></li>
+          </ul>
+      </div>
+    </footer>
+  </div>
 </body>
 
 </html>

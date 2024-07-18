@@ -10,10 +10,6 @@ body {
   padding: 0;
 }
 
-a {
-  text-decoration-line: none;
-}
-
 /* 상단 스크롤 바 */
 .scrollIndicator {
   height: 10px;
@@ -145,8 +141,8 @@ a {
   color: white;
   font-weight: 700;
 
-  font-size: 17px;
-  margin-top: 250px;
+  font-size: 24px;
+  margin-top: 150px;
   margin-bottom: 20px;
 }
 
@@ -193,16 +189,14 @@ a {
 }
 
 .linkDiv {
-  height: 800px;
+  height: 600px;
   width: 100%;
   flex-direction: column;
-
   justify-content: center;
   align-items: center;
-
   display: flex;
-
   font-weight: 700;
+  margin-bottom: 100px;
 }
 
 .memberCards {
@@ -223,4 +217,51 @@ a {
 .linkCardImage > a > img {
   width: 160px;
   height: 160px;
+}
+
+.footer {
+  background-image: linear-gradient(to bottom, black, rgb(60, 60, 60));
+  color: white;
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items:start;
+  gap: 120px;
+}
+.teamName > p{
+  font-size: 24px;
+  font-weight: 700;
+  text-align: left;
+}
+.footer p {
+  margin-bottom: 12px;
+}
+.footer .team-name {
+  text-align: left;
+}
+.footer .members, .footer .blogs {
+  text-align: left;
+}
+.members, .blogs{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:start;
+}
+
+.members > p, .blogs > p{
+  font-weight: 700;
+}
+.footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer li {
+  text-align: left;
+  margin: 5px 0;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
 }

@@ -4,10 +4,10 @@
     font-family: "Pretendard"
 }
 
+
 body{
 	margin: 0;
     background-image: url(../images/배경.jpg);
-
 } 
 
 .header{
@@ -40,7 +40,7 @@ a{
 
 .memberIntro {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     margin: auto;
     width: 1000px;
     padding: 50px 0;
@@ -124,7 +124,7 @@ a{
 
 .memberTitle {
     padding: 10px ;
-    
+    margin-left: 120px;
 }
 .memberImg {
     height: 240px;

@@ -1,5 +1,15 @@
-.comment{
-padding-bottom: 50px;
+.comment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.inputDiv {
+    vertical-align: middle;
+    height: 250px;
+    border-radius: 15px;
 }
 
 #sendBtn {
@@ -7,25 +17,72 @@ padding-bottom: 50px;
     background-color: #FF6C7A;
     border-radius: 10px;
     border: none;
-    font-size: 30px;
-    padding: 20 100;
-}
-.cheeringCards{
-    justify-content: center;
-
-    /* display: flex; */
-}
-
-#mentDet{
-    width: 350px;
-    height:100px;
-}
-
-#nickname{
+    font-size: 25px;
+    
     width: 200px;
-    height: 40px;
+    
+    margin-left: 15px;
+    
+    border-radius: 10px;
 }
 
-/* #cheeringList{
-    margin-bottom: 100px;
-} */
+.cheeringCards {
+    height: 70px;
+    justify-content: center;
+    
+    display: flex;
+    align-items: center;
+}
+
+
+#mentDet {
+    justify-content: center;
+    font-size: 25px;
+    height: 250px;
+    line-height: 240px;
+    width: 600px;
+    height: 250px;
+    width: 600px;
+
+    border-radius: 10px;
+    border-color: #DBDBDB;
+
+    resize: none;
+}
+#nickname {
+    width: 370px;
+    height: 40px;
+
+    border-radius: 10px;
+    border: solid 1px #DBDBDB;
+}
+
+#com1 {
+    padding: 50px;
+    font-size: 20px;
+}
+
+#mentFrame {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+#com2 {
+    padding-top: 10px;
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.cNick {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 200px;
+}
+
+.cardText, .cardTitle{
+    margin: 0;
+}

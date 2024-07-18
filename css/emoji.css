@@ -1,0 +1,53 @@
+.emojiBox {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+/* 이모지 버튼 스타일 */
+.emojiBtn {
+    margin: 0 10px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+/* 팝오버 스타일 */
+.popover {
+    position: relative;
+    background-color: rgba(20, 20, 20, 0.8);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.emojiList {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.emoji {
+    font-size: 24px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+/* 이모지 목록을 보여주는 버튼 */
+.toggleBtn {
+    font-size: 16px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* 이모지 버튼에 마우스 호버 시 배경 색 변경 */
+.emoji:hover {
+    background-color: #909090;
+    border-radius: 4px;
+}

@@ -32,7 +32,6 @@ $("#sendBtn").click(async function () {
   };
   console.log(doc);
   await addDoc(collection(db, "cheering"), doc);
-  alert("감사합니다!");
   location.reload();
 });
 
@@ -44,14 +43,14 @@ docs.forEach((doc) => {
   let comment = row["comment"];
   
   let attachComment = `
-  <div id="cheeringList" class="card mb-3">
+  <div class="card mb-3">
   <div class='cheeringCards' class="row g-0">
-  <div class="col-md-4">
+  <div class='cNick' class="col-md-4">
   <h5 class="card-title">${nickname}</h5>
   </div>
   <div class="col-md-8">
   <div class="card-body">
-  <p class="card-text">${comment}</p>
+  <p class="cardText">${comment}</p>
   </div>
   </div>
   </div>

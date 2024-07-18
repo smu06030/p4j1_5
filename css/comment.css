@@ -31,6 +31,7 @@
     justify-content: center;
     
     display: flex;
+    align-items: center;
 }
 
 
@@ -72,6 +73,7 @@
 #com2 {
     padding-top: 10px;
     display: flex;
+    padding-bottom: 20px;
 }
 
 .cNick {
@@ -79,4 +81,8 @@
     align-items: center;
     justify-content: end;
     width: 200px;
+}
+
+.cardText, .cardTitle{
+    margin: 0;
 }

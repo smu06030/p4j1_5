@@ -46,7 +46,7 @@ docs.forEach((doc) => {
   <div class="card mb-3">
   <div class='cheeringCards' class="row g-0">
   <div class='cNick' class="col-md-4">
-  <h5 class="card-title">${nickname}</h5>
+  <h5 class="cardTitle">${nickname}</h5>
   </div>
   <div class="col-md-8">
   <div class="cardBody">

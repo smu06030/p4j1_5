@@ -13,16 +13,11 @@
 }
 /* 팝오버 스타일 */
 .popover {
-    position: relative;
-    background-color: rgba(20, 20, 20, 0.8);
-    color: white;
-    padding: 10px;
-    border-radius: 5px;
-    display: none;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+   
 }
 
 .emojiList {
+    position: absolute;
     display: flex;
     justify-content: center;
     margin-top: 10px;

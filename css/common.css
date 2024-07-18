@@ -70,7 +70,6 @@ a {
   height: 10px;
   background-color: #FFF6A9;
   font-weight: 700;
-  margin: 12px 0;
 }
 
 .yDiv {
@@ -206,21 +205,22 @@ a {
 }
 
 .memberCards {
-  width: 1280px;
+  width: 1200px;
+  height: 500px;
 
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 
 .linkCard {
-  display: flex;
-  flex-direction: column;
   width: 160px;
-  height: auto;
+  height: 193px;
+
+  margin: auto;
 }
 
-.linkCardImage > a > img {
+.linkCardImage {
   width: 160px;
   height: 160px;
 }

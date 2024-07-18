@@ -134,6 +134,10 @@ a{
 
 }
 
+.memberImg:hover {
+    background-color: rgb(60, 60, 60);
+}
+
 .memberSite {
     margin-top: 10px;
     display: flex;

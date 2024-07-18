@@ -10,10 +10,6 @@ body {
   padding: 0;
 }
 
-a {
-  text-decoration-line: none;
-}
-
 /* 상단 스크롤 바 */
 .scrollIndicator {
   height: 10px;
@@ -145,8 +141,8 @@ a {
   color: white;
   font-weight: 700;
 
-  font-size: 17px;
-  margin-top: 250px;
+  font-size: 24px;
+  margin-top: 150px;
   margin-bottom: 20px;
 }
 

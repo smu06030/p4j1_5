@@ -119,18 +119,26 @@
     </div>
 
     <div class="comment">
-      <h2 >P4J1팀에게 응원 보내기</h2>
-      <div>응원 한마디가 코린이들에겐 큰 힘이 됩니다</div>
-      <textarea id="mentDet" type="text" placeholder="응원 메세지를 입력해주세요" required></textarea>
+
+      <div class="yDiv" style="margin-bottom: 150px;"><span class="yellow" style="text-shadow: 0 2px 10px gray;"
+          id="teamInfoContent">&nbsp;&nbsp;팀 소개 내용&nbsp;&nbsp;</span></div>
+      <div id="com1">응원 한마디가 코린이들에겐 큰 힘이 됩니다</div>
+
+      <div class="input-div">
+        <div>
+          <textarea id="mentDet" class="mentDet" type="text" placeholder="응원 메세지를 입력해주세요" required></textarea>
+        </div>
+      </div>
       <div>
         <input id="nickname" type="text" placeholder="닉네임" required>
         <button id="sendBtn">응원 보내기</button>
       </div>
     </div>
 
-    <div>
-      <div id="cheeringList" class="card mb-3" style="max-width: 540px;">
 
+    <div id="mentFrame">
+
+      <div id="cheeringList" class="card mb-3">
         <div class='cheeringCards' class="row g-0">
           <div class="col-md-4">
             <h5 class="card-title">${nickname}</h5>

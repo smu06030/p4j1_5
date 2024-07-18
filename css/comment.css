@@ -1,10 +1,9 @@
 .comment{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 padding-bottom: 50px;
-}
-
-
-#cSpan{
-    display: inline;
 }
 
 #mentDet{

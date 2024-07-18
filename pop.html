@@ -20,7 +20,7 @@
             }
             /* 팝오버 스타일 */
             .popover {
-                position: absolute;
+                position: relative;
                 background-color: rgba(20, 20, 20, 0.8);
                 color: white;
                 padding: 10px;
@@ -64,8 +64,8 @@
         <!-- 팝오버 토글 버튼 -->
         <button class="toggleBtn">이모지 반응하기</button> 
 
-        <!-- 팝오버가 생성될 컨테이너 -->
-        <div class="popover-emojiBox" id="popoveremojiBox">
+        <!-- 팝오버가 생성될 박스 -->
+        <div class="popoveremojiBox" id="popoveremojiBox">
             <div class="popover">
                 <div class="emojiList">
                     <span class="emoji" data-emoji="😀">😀</span>
@@ -97,7 +97,7 @@
                         popover.style.display = 'none'; // 팝오버 닫기
                     } else {
                         const rect = toggleButton.getBoundingClientRect();
-                        popover.style.top = rect.bottom + 'px'; // 버튼 아래에 위치
+                        popover.style.topgit = rect.bottom + 'px'; // 버튼 아래에 위치
                         popover.style.left = rect.left + 'px'; // 버튼 왼쪽 정렬
                         popover.style.display = 'block'; // 팝오버 열기
                     }

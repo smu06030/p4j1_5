@@ -49,7 +49,7 @@ docs.forEach((doc) => {
   <h5 class="card-title">${nickname}</h5>
   </div>
   <div class="col-md-8">
-  <div class="card-body">
+  <div class="cardBody">
   <p class="cardText">${comment}</p>
   </div>
   </div>

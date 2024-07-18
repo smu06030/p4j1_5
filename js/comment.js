@@ -33,6 +33,7 @@ $("#sendBtn").click(async function () {
   console.log(doc);
   await addDoc(collection(db, "cheering"), doc);
   alert("감사합니다!");
+  location.reload();
 });
 
 let docs = await getDocs(collection(db, "cheering"));

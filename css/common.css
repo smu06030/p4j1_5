@@ -10,10 +10,6 @@ body {
   padding: 0;
 }
 
-a {
-  text-decoration-line: none;
-}
-
 /* 상단 스크롤 바 */
 .scrollIndicator {
   height: 10px;
@@ -70,6 +66,7 @@ a {
   height: 10px;
   background-color: #FFF6A9;
   font-weight: 700;
+  margin: 12px 0;
 }
 
 .yDiv {
@@ -205,22 +202,21 @@ a {
 }
 
 .memberCards {
-  width: 1200px;
-  height: 500px;
+  width: 1280px;
 
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
 .linkCard {
+  display: flex;
+  flex-direction: column;
   width: 160px;
-  height: 193px;
-
-  margin: auto;
+  height: auto;
 }
 
-.linkCardImage {
+.linkCardImage > a > img {
   width: 160px;
   height: 160px;
 }

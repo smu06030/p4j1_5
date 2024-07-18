@@ -4,85 +4,133 @@
     font-family: "Pretendard"
 }
 
-* {
-    border-top-left-radius: 0%;
+
+body{
+	margin: 0;
+    background-image: url(../images/배경.jpg);
+} 
+
+.header{
+    
+    height: 50px;
+    display: flex;
+    align-items: center;
+    
 }
-
-
 .mainLink {
     text-align: center;
     width: 56px;
     height: 29px;
     position: relative;
+    margin-left: 10px;
 }
 
 a{
     text-decoration: none; 
 }
 
+.introBox{
+    padding: 100px 0;
+}
+
 .box {
     display: flex;
     justify-content: center;
-
 }
 
 .memberIntro {
     display: flex;
     justify-content: center;
-    margin: 20px 0;
+    margin: auto;
+    width: 1000px;
+    padding: 50px 0;
+    border-radius: 3%;
+    background-color: rgb(255, 255, 255, 0.8);
 }
 
-.memberName {
-    width: 1024px;
-    
-
+.promise{
+ font-size: 40px;
+ display: flex;
+ align-items: center;
+ margin-left: 100px;
 }
 
-.memberName > div{
-    margin-bottom: 20px;
+.memberName{
+    text-align: center;
+    padding: 15px 0;
 }
 
 .highLight{
     display: inline;
-    box-shadow: inset 0 -10px 0 #FF6C7A; 
+    box-shadow: inset 0 -10px 0 aquamarine; 
   font-weight: 700;
 }
 
 
 .memberInfo {
-
-    
-    width: 700px;
+    width: 1000px;
+    margin: auto;
     padding: 10px;
+    background-color: rgb(255, 255, 255,0.5);
+    border-radius: 5px;
 }
 
-.btnGroup {
-    margin-bottom: 20px;
-    text-align: center;
+.btnGroup button {
+    background-color: #FF6C7A;
+    border: 1px solid rgb(255, 59, 59);
+    color: white;
+    padding: 10px 24px;
+    cursor: pointer;
+    float:inline-start;
+    width: 250px;
+    height: 35px;
+    font-size: 15px;
 }
 
-.btnGroup>button {
-    width: 120px;
-    height: 30px;
-    margin: 0 20px;
-  
+.btnGroup:after {
+    content: "";
+    clear: both;
+    display: table;
 }
+
+.btnGroup button:not(:last-child) {
+    border-right: none;
+}
+
+.btnGroup button:hover {
+    background-color: #ff4255;
+}
+
+.btn1 {
+    border-top-left-radius: 5px;
+}
+
+.btn4 {
+    border-top-right-radius: 5px;
+}
+
+
 
 .contents {
     border: 1px solid black;
-    padding: 5px;
+    border-top: none;
+    padding: 30px 10px 0px 10px;
+    background-color: white;
 }
 
-
-.aSide {
-    padding: 0 50px;
+.contents > div{
+    margin-bottom: 30px;
 }
 
-
+.memberTitle {
+    padding: 10px ;
+    
+}
 .memberImg {
     height: 240px;
     width: 240px;
-    border: 1px solid black;
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 8px;
 
 }
 
@@ -94,9 +142,10 @@ a{
 }
 
 
-.memberSite>div {
+.memberSite > div {
     width: 30px;
     height: 30px;
     border-radius: 50%;
     margin: 15px;
+    background-color: transparent;
 }

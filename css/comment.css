@@ -6,13 +6,26 @@ padding-bottom: 50px;
     color: white;
     background-color: #FF6C7A;
     border-radius: 10px;
+    border: none;
     font-size: 30px;
     padding: 20 100;
 }
 .cheeringCards{
-    display: flex;
     justify-content: center;
-    padding-bottom: 50px;
 
-    /* background-color: green; */
+    /* display: flex; */
 }
+
+#mentDet{
+    width: 350px;
+    height:100px;
+}
+
+#nickname{
+    width: 200px;
+    height: 40px;
+}
+
+/* #cheeringList{
+    margin-bottom: 100px;
+} */

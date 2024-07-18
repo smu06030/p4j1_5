@@ -20,7 +20,7 @@
             }
             /* 팝오버 스타일 */
             .popover {
-                position: absolute;
+                position: relative;
                 background-color: rgba(20, 20, 20, 0.8);
                 color: white;
                 padding: 10px;
@@ -42,7 +42,7 @@
             }
 
             /* 이모지 목록을 보여주는 버튼 */
-            .toggle-btn {
+            .toggleBtn {
                 font-size: 16px;
                 padding: 5px 10px;
                 margin-top: 10px;
@@ -62,10 +62,10 @@
     </head>
     <body>
         <!-- 팝오버 토글 버튼 -->
-        <button class="toggle-btn">이모지 반응하기</button> 
+        <button class="toggleBtn">이모지 반응하기</button> 
 
-        <!-- 팝오버가 생성될 컨테이너 -->
-        <div class="popover-emojiBox" id="popoveremojiBox">
+        <!-- 팝오버가 생성될 박스 -->
+        <div class="popoveremojiBox" id="popoveremojiBox">
             <div class="popover">
                 <div class="emojiList">
                     <span class="emoji" data-emoji="😀">😀</span>
@@ -78,7 +78,7 @@
         <script>
             document.addEventListener('DOMContentLoaded', function() {
                 const emojiButtons = document.querySelectorAll('.emojiBtn'); // 모든 이모지 버튼들을 선택
-                const toggleButton = document.querySelector('.toggle-btn'); // 팝오버 토글 버튼
+                const toggleButton = document.querySelector('.toggleBtn'); // 팝오버 토글 버튼
                 const popoveremojiBox = document.getElementById('popoveremojiBox'); // 팝오버를 담을 컨테이너
                 const popover = document.querySelector('.popover'); // 팝오버 엘리먼트
 
@@ -97,7 +97,7 @@
                         popover.style.display = 'none'; // 팝오버 닫기
                     } else {
                         const rect = toggleButton.getBoundingClientRect();
-                        popover.style.top = rect.bottom + 'px'; // 버튼 아래에 위치
+                        popover.style.topgit = rect.bottom + 'px'; // 버튼 아래에 위치
                         popover.style.left = rect.left + 'px'; // 버튼 왼쪽 정렬
                         popover.style.display = 'block'; // 팝오버 열기
                     }

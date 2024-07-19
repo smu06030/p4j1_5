@@ -85,6 +85,7 @@ a{
   .back { 
     background-image: linear-gradient(#8e2de2, #FF6C7A);
     transform: rotateY(180deg);
+    text-align: center;
   }
   
   .flip:hover .card {
@@ -141,7 +142,7 @@ a{
 }
 
 .btnGroup button:hover {
-    background-color: #ff4255;
+    background-color: #8e2de2;
 }
 
 .btn1 {

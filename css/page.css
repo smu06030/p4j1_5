@@ -71,7 +71,6 @@ a{
     backface-visibility: hidden;
     display: flex;
     justify-content: center;
-    align-items: center;
     color: #fff;
     border-radius: 5px;
 
@@ -80,12 +79,16 @@ a{
   .front {
     background-image: url(https://i.pinimg.com/736x/83/a1/44/83a1440cba16d24810b3852940f18e9e.jpg);
     background-size: 200px 250px;
+    align-items: end;
+
   }
   
   .back { 
     background-image: linear-gradient(#8e2de2, #FF6C7A);
     transform: rotateY(180deg);
     text-align: center;
+    align-items: center;
+
   }
   
   .flip:hover .card {

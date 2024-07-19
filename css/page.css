@@ -48,6 +48,49 @@ a{
     background-color: rgb(255, 255, 255, 0.8);
 }
 
+.flip { 
+    width: 200px;
+    height: 250px;
+    position: relative; 
+    perspective: 1100px;
+    margin: auto;
+  }
+  
+  .card {
+    width: 100%; 
+    height: 100%; 
+    position: relative;
+    transition: .4s;
+    transform-style: preserve-3d;
+  } 
+  
+  .front, .back {
+    position: absolute;
+    width: 100%; 
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 5px;
+
+  }
+  
+  .front {
+    background-image: url(https://i.pinimg.com/736x/83/a1/44/83a1440cba16d24810b3852940f18e9e.jpg);
+    background-size: 200px 250px;
+  }
+  
+  .back { 
+    background-image: linear-gradient(#8e2de2, #FF6C7A);
+    transform: rotateY(180deg);
+  }
+  
+  .flip:hover .card {
+    transform: rotateY(180deg);
+  }
+
 .promise{
  font-size: 40px;
  display: flex;
@@ -129,13 +172,7 @@ a{
 .memberImg {
     height: 240px;
     width: 240px;
-    border: 1px solid rgb(189, 189, 189);
     border-radius: 8px;
-
-}
-
-.memberImg:hover {
-    background-color: rgb(60, 60, 60);
 }
 
 .memberSite {

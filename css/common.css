@@ -10,6 +10,7 @@ body {
   padding: 0;
 }
 
+
 /* 상단 스크롤 바 */
 .scrollIndicator {
   height: 10px;
@@ -81,17 +82,15 @@ body {
   
   flex-direction: column;
 
-  justify-content: center;
   align-items: center;
 
 }
 
 .mainLink {
   position: relative;
-  right: 46%;
+  margin-left: 10px;
   width: 56px;
   height: 29px;
-  position: relative;
 }
 
 .head .logo{
@@ -153,7 +152,7 @@ body {
   justify-content: center;
   align-items: center;
 
-  margin-top: 250px;
+  margin-top: 200px;
 
 }
 

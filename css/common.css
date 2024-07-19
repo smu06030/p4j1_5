@@ -193,10 +193,7 @@ body {
 }
 
 .pis:hover {
-  color: rgb(0, 221, 221);
-  
-
-  cursor: none;
+  color: #8e2de2;
 }
 
 .linkDiv {
@@ -228,12 +225,10 @@ body {
 .linkCardImage > a > img {
   width: 160px;
   height: 160px;
-
-  cursor: none;
 }
 
 .linkCardImage:hover {
-  background-color: #fee4ed;
+  background-color: #FF6C7A;
 }
 
 .footer {

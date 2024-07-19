@@ -8,6 +8,7 @@
 body{
 	margin: 0;
     background-image: url(../images/배경.jpg);
+    height: 1123px;
 } 
 
 .header{
@@ -19,7 +20,7 @@ body{
 }
 .mainLink {
     text-align: center;
-    width: 56px;
+    width: 70px;
     height: 29px;
     position: relative;
     margin-left: 10px;
